@@ -7,13 +7,13 @@ import MotocycleServices from '../../../src/Services/motocycleServices';
 
 const motoDb1 = {
   id: '6348513f34c123abcad040b2',
-    model:" Honda Cb 600f Hornet",
-    year: 2014,
-    color:"Red",
-    status: true,
-    buyValue: 45.000,
-    category: "Street",
-    engineCapacity: 600
+  model: ' Honda Cb 600f Hornet',
+  year: 2014,
+  color: 'Red',
+  status: true,
+  buyValue: 45.000,
+  category: 'Street',
+  engineCapacity: 600,
 };
 const motoDb2 = {
   model: 'Suzuki intruder 125',
@@ -21,18 +21,18 @@ const motoDb2 = {
   color: 'Azul',
   status: true,
   buyValue: 7.500,
-  category: "Street",
-  engineCapacity: 125
+  category: 'Street',
+  engineCapacity: 125,
 };
 
 const bodyRequest = {
-    model: 'Suzuki intruder 125',
-    year: 2012,
-    color: 'Azul',
-    status: true,
-    buyValue: 7.500,
-    category: "Street",
-    engineCapacity: 125
+  model: 'Suzuki intruder 125',
+  year: 2012,
+  color: 'Azul',
+  status: true,
+  buyValue: 7.500,
+  category: 'Street',
+  engineCapacity: 125,
 };
 
 const created1 = new Motocycle(motoDb1);
