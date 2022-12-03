@@ -12,7 +12,7 @@ const motoDb1 = {
   color: 'Red',
   status: true,
   buyValue: 45.000,
-  category: 'Street',
+  category: 'Street' as 'Street' | 'Custom' | 'Trail',
   engineCapacity: 600,
 };
 const motoDb2 = {
@@ -21,7 +21,7 @@ const motoDb2 = {
   color: 'Azul',
   status: true,
   buyValue: 7.500,
-  category: 'Street',
+  category: 'Street' as 'Street' | 'Custom' | 'Trail',
   engineCapacity: 125,
 };
 
@@ -31,7 +31,7 @@ const bodyRequest = {
   color: 'Azul',
   status: true,
   buyValue: 7.500,
-  category: 'Street',
+  category: 'Street' as 'Street' | 'Custom' | 'Trail',
   engineCapacity: 125,
 };
 
