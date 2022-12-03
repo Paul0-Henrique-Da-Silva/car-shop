@@ -11,7 +11,7 @@ export default class CarController {
 
   public async create(request: Request, response: Response) {
     const carObj: ICar = request.body;
-    const car = await this.carService.createCar(carObj);
+    const car = await this.carService.create(carObj);
     response.status(201).json(car);  
   }
 

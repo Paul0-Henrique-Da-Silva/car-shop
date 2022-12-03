@@ -7,7 +7,7 @@ export default class CarService {
 
   constructor() { this.carModel = new CarModel(); }
 
-  public async createCar(car: ICar) {
+  public async create(car: ICar) {
     const carObj = await this.carModel.create(car);
     return new CarDomain(carObj);
   }
